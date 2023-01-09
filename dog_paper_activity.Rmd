@@ -1,0 +1,129 @@
+---
+title: "Reading a Research Paper"
+output: 
+  rmdformats::robobook:
+    css: "homework.css"
+    highlight: pygments
+link-citations: yes
+---
+
+**Instructions:** Statistics is an important research tool used in many fields. In this activity, you will read a paper that explores potential mental wellbeing benefits of interacting with dogs. The purpose of this activity is to help you learn how to read a research paper, and extract key details about the study and results.
+
+# Overview
+
+If you've every felt stressed around finals, you might have seen "animal therapy" opportunities organized by your school, in which students decompress by interacting with cute and cuddly animals like puppies and bunnies. Does interacting with animals actually help participants' wellbeing? In ["The Importance of Client–Canine Contact in Canine-Assisted Interventions: A Randomized Controlled Trial"](https://www.tandfonline.com/doi/abs/10.1080/08927936.2021.1944558) (Binfet *et al.* 2021, *Anthrozoos*), the authors investigate whether interacting with dogs leads to increases in participant wellbeing, and decreases in participant illbeing. This activity will help you read the paper by Binfet *et al.*, and think about important study design and data collection questions.
+
+## Outline of a research paper
+
+Research papers in many fields, particularly the sciences, often contain the following main sections:
+
+* *Abstract:* A short overview of the full paper, giving highlights of the motivation and background, the research question, the data, and the results.
+* *Introduction:* A broad overview of the research question the authors want to study, motivation for studying this question, and the authors' approach to answering their question. The introduction often starts very general, then narrows to the specific question addressed in this paper. More detail is provided in the introduction than in the abstract, and more time is spent on motivation and related literature.
+* *Methods:* The data and analysis techniques used to answer the research question. This typically describes the what the data looks like, how and where it was collected, and any statistical tools (e.g. visualizations, regression, hypothesis testing) that were used when analyzing the data.
+* *Results:* A summary of the analysis results, such as figures showing regression fits, and tables of regression coefficients and p-values.
+* *Discussion:* A discussion of the analysis results, in context of the original research question. In this section, explanations for *why* particular results were observed may be proposed.
+* *Conclusion:* A short summary of the paper and its key results, and their connections to broader scientific questions. The conclusion is often the reverse of the introduction: it starts with the specific question addressed by this paper, then discusses the implications of this research for science in general.
+
+## Reading a research paper
+
+Reading a research paper, particularly in a field in which you are not an expert, can be challenging. The trick is to skim the paper for the most relevant information, and skip over technical details that are not essential to understanding the key take-aways. The questions below will guide you to the most important sections in the paper by Binfet *et al.*
+
+# Questions
+
+## The Abstract and Introduction
+
+A good place to start is often with the Abstract and Introduction, which allow you get an overview of the paper, and usually don't contain too many technical details. The Abstract is more succinct than the Introduction, but it also provides less motivation. When the Introduction is long, you may want to skim for key details.
+
+Read the Abstract, and skim the Introduction (I recommend focusing on paragraphs 1, 2, 6, and 7). Then answer the following questions.
+
+:::{.question}
+#### Question 1
+
+In the abstract, the researchers explain that participants volunteered for the study. However, the title of the paper describes the study as a randomized controlled trial. Explain why these two statements do not conflict -- which part of the study design is randomized?
+:::
+
+:::{.question}
+#### Question 2
+
+What is the specific research question the researchers want to study, and what are their three hypotheses about this research question?
+:::
+
+So far, we know what questions the researchers are trying to answer, and we know that they used a randomized controlled trial to answer it. Our goal for the rest of the paper is to understand how the authors conducted this analysis. In particular, we want to answer the following questions:
+
+* Who participated in the trial?
+* What did the researchers record about each participant?
+* What statistical methods did the researchers use to investigate their hypotheses?
+* What did the researchers conclude from their study?
+
+This information is provided in the Methods and Results sections of the paper. These sections also contain lots of other details which is valuable, but not crucial to understand on a first reading, so we will focus on the most important parts of the Methods and Results.
+
+## Study Participants
+
+Read the *Student Participants* and *Procedure* subsections of the Methods, and then answer the following questions.
+
+:::{.question}
+#### Question 3
+
+How many students participated in the study?
+:::
+
+When reporting on human subjects research, it is very important that study participants should not be *identifiable* in the data -- that is, we should not be able to determine the identities of individual participants from the information reported in the paper. This is key to protecting participants' privacy.
+
+:::{.question}
+#### Question 4
+
+Which details about participants have been omitted in the paper, which make make participants identifiable if they were reported?
+:::
+
+Potential research subjects must meet certain criteria, defined by the researchers, to participate in a study. *Inclusion* criteria define requirements for inclusion in the study (e.g., a target age range or social group), while *exclusion* criteria are reasons a subject would be asked not to participate (e.g., certain medical conditions). 
+
+:::{.question}
+#### Question 5
+
+What are the inclusion/exclusion criteria for this study?
+:::
+
+## Data Collection and Analysis
+
+Now that we know who was studied, we want to know what data was collected about each participant, and how it was analyzed. Read the *Procedure*, *Analytic Plan*, *Hypothesis 1*, and *Hypothesis 2 and Hypothesis 3* subsections of the Methods, and skim the subsection headings for measures of wellbeing and measures of illbeing. Then answer the following questions.
+
+
+:::{.question}
+#### Question 6
+
+What are the three treatment groups, and how were participants assigned to each treatment?
+:::
+
+:::{.question}
+#### Question 7
+
+Summarize the different measures used to capture wellbeing and illbeing (you don't need to read about these measures in detail yet).
+:::
+
+:::{.question}
+#### Question 8
+
+The researchers describe *pre-registering* their research plan. Pre-registration means that the researchers formally commit to a specific plan of analysis before collecting data. Why might pre-registration be important?
+:::
+
+:::{.question}
+#### Question 9
+
+Summarize the methods used to test the three hypotheses. Why are paired-sample $t$-tests appropriate for Hypothesis 1, but not for Hypotheses 2 and 3?
+:::
+
+## Results
+
+Finally, let's see what the researchers concluded from their statistical models. Details are provided in the *Hypothesis 1* and *Hypothesis 2 and Hypothesis 3* subsections of the Results. Read these subsections, then answer the following questions.
+
+:::{.question}
+#### Question 10
+
+What should the researchers conclude about their three hypotheses?
+:::
+
+:::{.question}
+#### Question 11
+
+The researchers randomly assigned participants to the three treatment groups. The benefit of random assignment is that we no longer need to worry about confounding variables, because no explanatory variable can be systematically associated with the treatment. So why do the researchers collect demographic information about their participants, and compare the demographics for the three groups in Table 1?
+:::

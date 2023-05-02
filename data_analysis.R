@@ -143,9 +143,10 @@ dev.off()
 p1 <- dog_data %>%
   mutate(Group = factor(GroupAssignment, 
                         levels = c("Control", "Indirect", "Direct"))) %>%
-  ggplot(aes(x = PANAS_PA, y = PANAS_NA, color = Group, shape = Group)) +
-  geom_point() +
-  geom_jitter(width = 0.1, height = 0.1) +
+  ggplot(aes(x = PANAS_PA, y = PANAS_NA)) +
+  geom_point(aes(color = Group, shape = Group)) +
+  geom_jitter(width = 0.1, height = 0.1, aes(color = Group, shape = Group)) +
+  geom_smooth(color="black") +
   theme_bw() +
   labs(x = "Positive affect score", y = "Negative affect score")
 
@@ -153,9 +154,10 @@ p1 <- dog_data %>%
 p2 <- dog_data %>%
   mutate(Group = factor(GroupAssignment, 
                         levels = c("Control", "Indirect", "Direct"))) %>%
-  ggplot(aes(x = SCS, y = FS, color = Group, shape = Group)) +
-  geom_point() +
-  geom_jitter(width = 0.1, height = 0.1) +
+  ggplot(aes(x = SCS, y = FS)) +
+  geom_point(aes(color = Group, shape = Group)) +
+  geom_jitter(width = 0.1, height = 0.1, aes(color = Group, shape = Group)) +
+  geom_smooth(color="black") +
   theme_bw() +
   labs(x = "Social connectedness", y = "Flourishing")
 
@@ -163,9 +165,10 @@ p2 <- dog_data %>%
 p3 <- dog_data %>%
   mutate(Group = factor(GroupAssignment, 
                         levels = c("Control", "Indirect", "Direct"))) %>%
-  ggplot(aes(x = SCS, y = Lonely, color = Group, shape = Group)) +
-  geom_point() +
-  geom_jitter(width = 0.1, height = 0.1) +
+  ggplot(aes(x = SCS, y = Lonely)) +
+  geom_point(aes(color = Group, shape = Group)) +
+  geom_jitter(width = 0.1, height = 0.1, aes(color = Group, shape = Group)) +
+  geom_smooth(color="black") +
   theme_bw() +
   labs(x = "Social connectedness", y = "Loneliness")
 

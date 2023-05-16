@@ -6,6 +6,7 @@ This repository contains the code and data to reproduce the results in "Repurpos
 
 * `dog_data_raw.csv`: the raw data from [Binfet *et al.* (2022)](https://www.tandfonline.com/doi/abs/10.1080/08927936.2021.1944558). To anonymize the data, several demographic variables have been removed.
 * `dog_data_cleaned.csv`: data after initial cleaning and processing with `dog_data_cleaning.R`
+* `dog_data_long.csv`: data formatted for [Colgate Collaboratory app](https://shiny.colgate.edu/apps/Collaboratory-Apps/T-Test/)
 * `data_dictionary.pdf`: data dictionary describing `dog_data_raw.csv` and `dog_data_cleaned.csv`
 * `dog_data_cleaning.R`: process and transform raw data (`dog_data_raw.csv`) into format ready for analysis (`dog_data_cleaned.csv`)
 * `data_analysis.R`: create figures and tables with the processed data

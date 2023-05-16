@@ -10,6 +10,7 @@ This repository contains the code and data to reproduce the results in "Repurpos
 * `dog_data_cleaning.R`: process and transform raw data (`dog_data_raw.csv`) into format ready for analysis (`dog_data_cleaned.csv`)
 * `data_analysis.R`: create figures and tables with the processed data
 * `dog_paper_activity.*`: class activity introducing students to the [original research paper](https://www.tandfonline.com/doi/abs/10.1080/08927936.2021.1944558) by Binfet *et al.* Both PDF and HTML formats are provided, and the R Markdown source for the HTML
+* `midterm.pdf`: midterm exam using the human-canine interaction data
 * `homework.css`: CSS file for formatting `dog_paper_activity.html`
 * `pre_test_scales.pdf`: Figure 1 in Evans *et al.*
 * `pairwise_relationships.pdf`: Figure 2 in Evans *et al.*

@@ -95,9 +95,9 @@ write_csv(dog_data, "dog_data_cleaned.csv")
 
 
 # long data for app usage
-dog_data_long <- dog_data %>%
+dog_data_wide <- dog_data %>%
   mutate(GroupAssignment = factor(GroupAssignment, 
                                   levels = c("Control", "Indirect", "Direct")))%>%
   pivot_wider(values_from = c("FS", "PANAS_PA", "SCS", "SHS", "Engagement", "Stress",
                               "Homesick", "Lonely", "PANAS_NA"), names_from = Stage) 
-write.csv(x = dog_data_long, file = "dog_data_long.csv")
+write.csv(x = dog_data_wide, file = "dog_data_wide.csv")
